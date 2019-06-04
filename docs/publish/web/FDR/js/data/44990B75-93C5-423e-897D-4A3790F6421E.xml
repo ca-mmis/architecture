@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:1", "", "Administer System", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA121.html", "7.png", "E126", "0", "", "UseCase0","{D8A44453-ED49-4843-BA69-33025C43BAB2}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:2", "", "Generate Adhoc Reports", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA122.html", "7.png", "E124", "0", "", "UseCase0","{96357B5D-C82A-46dd-B8E0-E17B65C5C71A}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:3", "", "Generate Claim Schedule", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA123.html", "7.png", "E122", "0", "", "UseCase0","{8258B988-1BE1-42b8-8BF7-E8D11FF09556}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:4", "", "Generate Electronic Payments File", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA124.html", "7.png", "E121", "0", "", "UseCase0","{B30FDB6F-665A-4f74-8DD9-4FBA8D283DCD}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:5", "", "Generate Federal Draw Report", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA125.html", "7.png", "E125", "0", "", "UseCase0","{8D17C3B1-AE49-42d4-9D1C-9B687A1EEB3A}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:6", "", "Generate MBES Report Data", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA126.html", "7.png", "E123", "0", "", "UseCase0","{1D9CB3E4-E8E7-4e3e-908B-5A4AF2D6B6F8}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:7", "", "Record Money due to DHCS", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA127.html", "7.png", "E120", "0", "", "UseCase0","{0869C617-58B1-48bf-8269-0347A5BFDBCA}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:8", "", "Submit with Electronic Invoice", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA128.html", "7.png", "E118", "0", "", "UseCase0","{F528D76A-2C02-4cb2-B050-8CCBF4C20E0C}");
+tocTab[tocTab.length] = new Array("0.1.1.1.5.1.1:9", "", "Submit with Paper Invoice", "EARoot/EA1/EA1/EA1/EA5/EA1/EA1/EA129.html", "7.png", "E119", "0", "", "UseCase0","{73E9F482-DFFF-4293-AC1D-CCC29DF7BEC8}");

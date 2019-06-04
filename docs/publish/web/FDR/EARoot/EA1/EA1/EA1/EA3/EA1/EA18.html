@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Domain Model</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA19.png" usemap="#EA19" border="0" />
+
+<MAP NAME="EA19">
+<area shape="rect" coords="2052,263,2293,368" href="EA21.html" target="_self">
+<area shape="rect" coords="2069,1428,2205,1498" href="EA26.html" target="_self">
+<area shape="rect" coords="2317,1428,2447,1498" href="EA55.html" target="_self">
+<area shape="rect" coords="2205,1256,2339,1346" href="EA41.html" target="_self">
+<area shape="rect" coords="2437,949,2593,1019" href="EA44.html" target="_self">
+<area shape="rect" coords="2259,952,2413,1022" href="EA45.html" target="_self">
+<area shape="rect" coords="2052,952,2184,1022" href="EA35.html" target="_self">
+<area shape="rect" coords="2253,770,2419,860" href="EA37.html" target="_self">
+<area shape="rect" coords="1688,372,1794,449" href="EA42.html" target="_self">
+<area shape="rect" coords="1696,193,1786,270" href="EA47.html" target="_self">
+<area shape="rect" coords="1192,350,1324,427" href="EA38.html" target="_self">
+<area shape="rect" coords="1131,195,1386,265" href="EA39.html" target="_self">
+<area shape="rect" coords="875,265,1043,368" href="EA28.html" target="_self">
+<area shape="rect" coords="1563,1449,1795,1519" href="EA33.html" target="_self">
+<area shape="rect" coords="1336,1449,1530,1519" href="EA31.html" target="_self">
+<area shape="rect" coords="1146,1449,1290,1519" href="EA52.html" target="_self">
+<area shape="rect" coords="900,1449,1071,1519" href="EA54.html" target="_self">
+<area shape="rect" coords="1251,1166,1449,1256" href="EA23.html" target="_self">
+<area shape="rect" coords="1163,960,1538,1037" href="EA24.html" target="_self">
+<area shape="rect" coords="1156,760,1545,850" href="EA25.html" target="_self">
+<area shape="rect" coords="498,1395,636,1472" href="EA46.html" target="_self">
+<area shape="rect" coords="498,836,600,939" href="EA49.html" target="_self">
+<area shape="rect" coords="498,479,636,556" href="EA43.html" target="_self">
+<area shape="rect" coords="497,314,637,435" href="EA34.html" target="_self">
+<area shape="rect" coords="496,199,586,269" href="EA29.html" target="_self">
+<area shape="rect" coords="26,1319,324,1548" href="EA32.html" target="_self">
+<area shape="rect" coords="33,1045,318,1238" href="EA30.html" target="_self">
+<area shape="rect" coords="33,716,318,960" href="EA53.html" target="_self">
+<area shape="rect" coords="51,199,299,623" href="EA50.html" target="_self">
+<area shape="rect" coords="10,140,694,1570" href="EA51.html" target="_self">
+<area shape="rect" coords="821,716,1863,1570" href="EA22.html" target="_self">
+<area shape="rect" coords="821,140,1413,536" href="EA27.html" target="_self">
+<area shape="rect" coords="1542,140,1940,490" href="EA48.html" target="_self">
+<area shape="rect" coords="2015,717,2626,1067" href="EA36.html" target="_self">
+<area shape="rect" coords="1979,1181,2548,1570" href="EA40.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Domain Model : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">5/20/2019 10:29:19 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/20/2019 12:05:53 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Joe Chavez (DHCS)</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{29A1413F-02B2-4f98-9B88-359BB8994CA9}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The FDR Domain Model provides a domain driven design perspective of the data, behavior and relationships between the key abstractions defined in the business domain. &lt;br/&gt;</div>
+
+</div>
+ 
+</body>
+</html>
