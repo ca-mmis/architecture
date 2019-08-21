@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.1.1.1", "1", "FMS Behavior", "EARoot/EA1/EA1/EA1/EA1/EA16.html", "4.png", "", "", "{8C5178F3-CCB8-4629-85E3-84E2BAB9B5D3}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.1.2", "1", "FMS Structure", "EARoot/EA1/EA1/EA1/EA2/EA58.html", "4.png", "", "", "{4E4B6A88-2475-4fbb-AD7C-16FB85105FCD}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1", "1", "FMS Behavior", "EARoot/EA1/EA1/EA11.html", "4.png", "", "", "{8C5178F3-CCB8-4629-85E3-84E2BAB9B5D3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "FMS Structure", "EARoot/EA1/EA2/EA53.html", "4.png", "", "", "{4E4B6A88-2475-4fbb-AD7C-16FB85105FCD}", "Package");
