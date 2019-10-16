@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Invoice Received</title>
+<title>Ledger API</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Invoice Received", " : "))</script>  : Public  &lt;&lt;ArchiMate_BusinessEvent&gt;&gt; BusinessEvent</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Ledger API", " : "))</script>  : Public abstract &lt;&lt;ArchiMate_BusinessInterface&gt;&gt; BusinessInterface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">5/14/2019 4:27:11 PM</td>
+			<td width="85%" class="ObjectDetailsValue">8/21/2019 11:21:24 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">5/14/2019 4:27:41 PM</td>
+			<td class="ObjectDetailsValue">8/21/2019 11:21:53 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,67 +87,86 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2DAA2E84-DA25-4422-835F-ECB9B3F595A2}</td>
+			<td class="ObjectDetailsValue">{D7AC9888-9AAD-4e07-A3F2-F38E0A25AE1C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA140.html">Business Archiecture Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA142.html">FMS Business Layer Diagram</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA197.html">Create Voucher</a><br />
-						Activity «ArchiMate_Triggering» 
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA179.html">«ArchiMate_BusinessService» Ledger Service</a><br />
+						BusinessService «ArchiMate_Assignment» 
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow192" onclick="parent.toggleDiv('detailsDIVLinkFlow192', 'DetailsImageLinkFlow192')" />Details:
-							<div id="detailsDIVLinkFlow192" class="DetailsDiv" >
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink191" onclick="parent.toggleDiv('detailsDIVLink191','DetailsImageLink191')" />Details:
+							<div id="detailsDIVLink191" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+
 			</table>
 		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">_HideUmlLinks:</td>
-				<td width="70%" class="TableRow">True</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">ArchiMate3::Business</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA173.html">«ArchiMate_BusinessService» Financial Management Services</a><br />
+						BusinessService «ArchiMate_Association» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink192" onclick="parent.toggleDiv('detailsDIVLink192','DetailsImageLink192')" />Details:
+							<div id="detailsDIVLink192" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 
 			</table>
-		</div>	</div>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>
