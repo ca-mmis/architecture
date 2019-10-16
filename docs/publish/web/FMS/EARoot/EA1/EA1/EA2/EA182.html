@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Manual Entry</title>
+<title>Manual Entry - Invoice Processor</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Manual Entry", " : "))</script>  : Public  &lt;&lt;ArchiMate_BusinessEvent&gt;&gt; BusinessEvent</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Manual Entry - Invoice Processor", " : "))</script>  : Public  &lt;&lt;ArchiMate_BusinessActor&gt;&gt; BusinessActor</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">8/14/2019 9:18:32 AM</td>
+			<td width="85%" class="ObjectDetailsValue">8/14/2019 9:17:29 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">8/21/2019 10:55:36 AM</td>
+			<td class="ObjectDetailsValue">10/16/2019 11:38:29 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,7 +87,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{753B4DBE-AD50-4b9b-98ED-931373285537}</td>
+			<td class="ObjectDetailsValue">{5394DAD1-BA20-4bab-9209-C3CCED7F7981}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -97,44 +97,9 @@ function nameClassifier(name, separator)
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA149.html">«ArchiMate_BusinessRole» BusinessRole1</a><br />
-						BusinessRole «ArchiMate_Serving» 
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink196" onclick="parent.toggleDiv('detailsDIVLink196','DetailsImageLink196')" />Details:
-							<div id="detailsDIVLink196" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
 		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -143,8 +108,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA160.html">Data Ingest API</a><br />
-						Interface «ArchiMate_Triggering» 
+						<a href="EA164.html">Electronic Ingest</a><br />
+						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
@@ -156,19 +121,10 @@ function nameClassifier(name, separator)
 							</div>
 						</div>
 					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
+				</tr>				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA175.html">Hand File - Invoice Processor</a><br />
-						Class «ArchiMate_Triggering» 
+						<a href="EA181.html">Manual Entry</a><br />
+						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
@@ -197,11 +153,6 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="30%" class="TableRow">_defaultDiagramType:</td>
 				<td width="70%" class="TableRow">ArchiMate3::Business</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 
