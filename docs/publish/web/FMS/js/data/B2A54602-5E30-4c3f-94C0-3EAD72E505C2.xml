@@ -1,4 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1.1.1", "1", "Application Architecture Model", "EARoot/EA1/EA1/EA1/EA11.html", "4.png", "", "", "{1154B66C-C5B1-4c7b-878F-56E1AC4AAA96}", "Package");
 tocTab[tocTab.length] = new Array("0.1.1.2", "1", "Business Archiecture Model", "EARoot/EA1/EA1/EA2/EA144.html", "4.png", "", "", "{4E9D2F8F-75B5-430d-84F3-BB9400536720}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.3", "", "Information Architecture Model", "EARoot/EA1/EA1/EA3/EA201.html", "4.png", "", "", "{11F67E23-5F74-40dc-A6E1-19D421B07931}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.4", "", "Technology Architecture Model", "EARoot/EA1/EA1/EA4/EA202.html", "4.png", "", "", "{AB10F1AB-849A-42a5-AEEC-BDCDEC78ABDC}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "", "Information Architecture Model", "EARoot/EA1/EA1/EA3/EA208.html", "4.png", "", "", "{11F67E23-5F74-40dc-A6E1-19D421B07931}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "", "Technology Architecture Model", "EARoot/EA1/EA1/EA4/EA209.html", "4.png", "", "", "{AB10F1AB-849A-42a5-AEEC-BDCDEC78ABDC}", "Package");
