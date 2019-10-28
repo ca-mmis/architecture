@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.1.2.2.1.2.3:1", "", "Business Event A", "EARoot/EA1/EA1/EA2/EA2/EA1/EA2/EA3/EA259.html", "9F0DDA8A-5_ArchiMate_BusinessEvent.png", "E418", "0", "", "Activity0","{8352D37E-BDF6-46c7-BACB-663F0E8E47C7}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2.1.2.3:2", "", "Business Event B", "EARoot/EA1/EA1/EA2/EA2/EA1/EA2/EA3/EA260.html", "9F0DDA8A-5_ArchiMate_BusinessEvent.png", "E419", "0", "", "Activity0","{37A6F545-74B2-4684-BDD7-038C8B9D4DB5}");
