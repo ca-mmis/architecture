@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipt_lines</OriginalElement>
+  <nodes>
+    <node x="17.0" y="627.0">3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipt_lines</node>
+    <node x="138.5" y="0.0">3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipts</node>
+    <node x="0.0" y="1056.0">3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.distribution_lines</node>
+    <node x="290.0" y="726.0">3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.events</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.events" target="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipts">
+      <point x="0.0" y="-90.5" />
+      <point x="413.5" y="602.0" />
+      <point x="348.5" y="602.0" />
+      <point x="70.0" y="288.5" />
+    </edge>
+    <edge source="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.distribution_lines" target="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipt_lines">
+      <point x="0.0" y="-376.5" />
+      <point x="0.0" y="189.5" />
+    </edge>
+    <edge source="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipt_lines" target="3675d972-b44b-4c34-a3b1-8e4ef85fa5f7.TABLE:receipt.public.receipts">
+      <point x="0.0" y="-189.5" />
+      <point x="143.5" y="602.0" />
+      <point x="208.5" y="602.0" />
+      <point x="-70.0" y="288.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7903469079939668" x="302.0" y="636.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
