@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.5.3:1", "", "Sequences", "EARoot/EA5/EA3/EA369.html", "175.png", "169", "0", "", "Logical diagram0","{A739C287-942A-4d65-B5DB-F60A56D21CCF}");
-tocTab[tocTab.length] = new Array("0.5.3:2", "", "«dbsequence» knex_migrations_id_seq", "EARoot/EA5/EA3/EA372.html", "8C9E6706-8_dbsequence.png", "E1040", "0", "", "Class0","{3087E1AA-F7E4-44dd-9CB3-F2AD5501BA08}");
-tocTab[tocTab.length] = new Array("0.5.3:3", "", "«dbsequence» knex_migrations_lock_index_seq", "EARoot/EA5/EA3/EA373.html", "8C9E6706-8_dbsequence.png", "E1041", "0", "", "Class0","{1E9DB6B0-936F-43f9-AF20-6C60195A87F1}");
-tocTab[tocTab.length] = new Array("0.5.3:4", "", "«dbsequence» report_lines_id_seq", "EARoot/EA5/EA3/EA374.html", "8C9E6706-8_dbsequence.png", "E1042", "0", "", "Class0","{FD390B10-2574-49de-B235-0E3090B20CD9}");
+tocTab[tocTab.length] = new Array("0.3.5.3:1", "", "Sequences", "EARoot/EA3/EA5/EA3/EA1264.html", "175.png", "169", "0", "", "Logical diagram0","{A739C287-942A-4d65-B5DB-F60A56D21CCF}");
+tocTab[tocTab.length] = new Array("0.3.5.3:2", "", "«dbsequence» knex_migrations_id_seq", "EARoot/EA3/EA5/EA3/EA1267.html", "8C9E6706-8_dbsequence.png", "E1040", "0", "", "Class0","{3087E1AA-F7E4-44dd-9CB3-F2AD5501BA08}");
+tocTab[tocTab.length] = new Array("0.3.5.3:3", "", "«dbsequence» knex_migrations_lock_index_seq", "EARoot/EA3/EA5/EA3/EA1268.html", "8C9E6706-8_dbsequence.png", "E1041", "0", "", "Class0","{1E9DB6B0-936F-43f9-AF20-6C60195A87F1}");
+tocTab[tocTab.length] = new Array("0.3.5.3:4", "", "«dbsequence» report_lines_id_seq", "EARoot/EA3/EA5/EA3/EA1269.html", "8C9E6706-8_dbsequence.png", "E1042", "0", "", "Class0","{FD390B10-2574-49de-B235-0E3090B20CD9}");
