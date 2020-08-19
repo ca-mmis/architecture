@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.1:1", "", "20.13", "EARoot/EA1/EA4.html", "176.png", "137", "0", "", "Package diagram0","{F0239E9B-B11C-4ebe-AC04-D5CD1BDA1412}");
-tocTab[tocTab.length] = new Array("0.1.1", "1", "«Database» Draw", "EARoot/EA1/EA1/EA16.html", "4.png", "", "", "{F545817F-338A-4d84-B589-5AA6CBF0B479}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "«Database» Receipt", "EARoot/EA1/EA2/EA57.html", "4.png", "", "", "{441832A6-C4E6-4af9-80AA-047428FD44EE}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3", "1", "«Database» Reference", "EARoot/EA1/EA3/EA110.html", "4.png", "", "", "{774FB255-394B-4bef-AD48-40C9F2D72E57}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4", "1", "«Database» Voucher", "EARoot/EA1/EA4/EA315.html", "4.png", "", "", "{0135FDA2-0E1D-437d-961A-386D3DAD06C9}", "Package");
-tocTab[tocTab.length] = new Array("0.1.5", "1", "«Database» Aggregation", "EARoot/EA1/EA5/EA359.html", "4.png", "", "", "{687CA959-8A14-4400-887C-BF714EE1ECF6}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6", "1", "«Database» Consumption", "EARoot/EA1/EA6/EA392.html", "4.png", "", "", "{DCA886FF-C691-4c09-8002-5B7DCB240968}", "Package");
+tocTab[tocTab.length] = new Array("0.2:1", "", "Sprint 20.13", "EARoot/EA2/EA373.html", "176.png", "137", "0", "", "Package diagram0","{F0239E9B-B11C-4ebe-AC04-D5CD1BDA1412}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "«Database» Draw", "EARoot/EA2/EA1/EA385.html", "4.png", "", "", "{F545817F-338A-4d84-B589-5AA6CBF0B479}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "«Database» Receipt", "EARoot/EA2/EA2/EA426.html", "4.png", "", "", "{441832A6-C4E6-4af9-80AA-047428FD44EE}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "«Database» Reference", "EARoot/EA2/EA3/EA479.html", "4.png", "", "", "{774FB255-394B-4bef-AD48-40C9F2D72E57}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "1", "«Database» Voucher", "EARoot/EA2/EA4/EA684.html", "4.png", "", "", "{0135FDA2-0E1D-437d-961A-386D3DAD06C9}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5", "1", "«Database» Aggregation", "EARoot/EA2/EA5/EA728.html", "4.png", "", "", "{687CA959-8A14-4400-887C-BF714EE1ECF6}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6", "1", "«Database» Consumption", "EARoot/EA2/EA6/EA761.html", "4.png", "", "", "{DCA886FF-C691-4c09-8002-5B7DCB240968}", "Package");
