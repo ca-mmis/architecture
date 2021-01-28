@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_buckets_view</title>
+<title>Views::current_accounts_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_buckets_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_accounts_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">6/26/2020 3:16:45 PM</td>
+			<td width="85%" class="ObjectDetailsValue">6/26/2020 3:16:44 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/26/2020 3:16:45 PM</td>
+			<td class="ObjectDetailsValue">6/26/2020 3:16:44 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{32277E93-34A0-4453-B6C0-86E8358C5458}</td>
+			<td class="ObjectDetailsValue">{EA3A0541-5F1B-4f17-9C75-C54894347D1A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA761.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA764.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,32 +113,32 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4549" onclick="parent.toggleDiv('detailsDIVScenario4549','DetailsImageScenario4549')" />Details:
-						<div id="detailsDIVScenario4549" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4540" onclick="parent.toggleDiv('detailsDIVScenario4540','DetailsImageScenario4540')" />Details:
+						<div id="detailsDIVScenario4540" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.buckets;</td>
+				<td width="50%" class="TableRow" valign="top">public.accounts;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4550" onclick="parent.toggleDiv('detailsDIVScenario4550','DetailsImageScenario4550')" />Details:
-						<div id="detailsDIVScenario4550" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4541" onclick="parent.toggleDiv('detailsDIVScenario4541','DetailsImageScenario4541')" />Details:
+						<div id="detailsDIVScenario4541" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT b.bucket_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_header1,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_header2,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_header3,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_header4,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_rank,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.bucket_fdr_appropriation_reference_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (buckets b<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.bucket_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM buckets i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.bucket_id) m ON (((b.bucket_id = m.bucket_id) AND (b.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY b.bucket_id;</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.account_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.account_number,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.account_description,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (accounts rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.account_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM accounts i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.account_id) m ON (((rec.account_id = m.account_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.account_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4551" onclick="parent.toggleDiv('detailsDIVScenario4551','DetailsImageScenario4551')" />Details:
-						<div id="detailsDIVScenario4551" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4542" onclick="parent.toggleDiv('detailsDIVScenario4542','DetailsImageScenario4542')" />Details:
+						<div id="detailsDIVScenario4542" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,7 +168,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA828.html">«table» buckets</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA827.html">«table» accounts</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

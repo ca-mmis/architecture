@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_draw_remittance_advice_forms_view</title>
+<title>Views::current_contacts_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_draw_remittance_advice_forms_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_contacts_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
+			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:22 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
+			<td class="ObjectDetailsValue">8/19/2020 1:16:22 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2E6D26BB-D2BD-417a-BE0E-B26D4A1906E5}</td>
+			<td class="ObjectDetailsValue">{54005296-9C54-4675-8531-260552F7FC40}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1390.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1393.html">Consumption All Entities</a>, <a href="../../../EA4/EA3/EA1789.html">Consumption All Entities</a>, <a href="../../../EA5/EA3/EA2328.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,6 +113,18 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10236" onclick="parent.toggleDiv('detailsDIVScenario10236','DetailsImageScenario10236')" />Details:
+						<div id="detailsDIVScenario10236" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">parents</td>
+				<td width="50%" class="TableRow" valign="top">public.contacts;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10237" onclick="parent.toggleDiv('detailsDIVScenario10237','DetailsImageScenario10237')" />Details:
 						<div id="detailsDIVScenario10237" class="DetailsDiv" >
 						&nbsp;
@@ -120,25 +132,13 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.draw_remittance_advice_forms;</td>
+				<td width="50%" class="TableRow" valign="top">viewdef</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.contact_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_phone,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (contacts rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.contact_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM contacts i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.contact_id) m ON (((rec.contact_id = m.contact_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.contact_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10238" onclick="parent.toggleDiv('detailsDIVScenario10238','DetailsImageScenario10238')" />Details:
 						<div id="detailsDIVScenario10238" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT b.draw_remittance_advice_form_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_type,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_title,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_appropriation_data,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_agency,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_pn,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_c,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_catalog,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.draw_remittance_advice_form_fund_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (draw_remittance_advice_forms b<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.draw_remittance_advice_form_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM draw_remittance_advice_forms i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.draw_remittance_advice_form_id) m ON (((b.draw_remittance_advice_form_id = m.draw_remittance_advice_form_id) AND (b.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY b.draw_remittance_advice_form_id;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10239" onclick="parent.toggleDiv('detailsDIVScenario10239','DetailsImageScenario10239')" />Details:
-						<div id="detailsDIVScenario10239" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,7 +168,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1530.html">«table» draw_remittance_advice_forms</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1527.html">«table» contacts</a></td>
+					<td width="10%" class="TableRow" valign="top">Table</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1592.html">«table» contacts</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

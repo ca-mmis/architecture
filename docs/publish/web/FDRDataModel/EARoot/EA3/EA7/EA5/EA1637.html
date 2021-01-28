@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_distribution_line_indexes_view</title>
+<title>Views::current_business_units_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_distribution_line_indexes_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_business_units_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{38543C10-EFD1-4574-BF43-9C6D8644D6B1}</td>
+			<td class="ObjectDetailsValue">{1FD6DBA9-91B9-4973-A3D6-E378711631DB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1390.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1393.html">Consumption All Entities</a>, <a href="../../../EA4/EA3/EA1789.html">Consumption All Entities</a>, <a href="../../../EA5/EA3/EA2328.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,6 +113,18 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10233" onclick="parent.toggleDiv('detailsDIVScenario10233','DetailsImageScenario10233')" />Details:
+						<div id="detailsDIVScenario10233" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">parents</td>
+				<td width="50%" class="TableRow" valign="top">public.business_units;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10234" onclick="parent.toggleDiv('detailsDIVScenario10234','DetailsImageScenario10234')" />Details:
 						<div id="detailsDIVScenario10234" class="DetailsDiv" >
 						&nbsp;
@@ -120,25 +132,13 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.distribution_line_indexes;</td>
+				<td width="50%" class="TableRow" valign="top">viewdef</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT b.business_unit_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.business_unit_business_unit,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (business_units b<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.business_unit_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM business_units i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.business_unit_id) m ON (((b.business_unit_id = m.business_unit_id) AND (b.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY b.business_unit_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10235" onclick="parent.toggleDiv('detailsDIVScenario10235','DetailsImageScenario10235')" />Details:
 						<div id="detailsDIVScenario10235" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.distribution_line_index_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.distribution_line_index_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (distribution_line_indexes rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.distribution_line_index_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM distribution_line_indexes i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.distribution_line_index_id) m ON (((rec.distribution_line_index_id = m.distribution_line_index_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.distribution_line_index_id;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10236" onclick="parent.toggleDiv('detailsDIVScenario10236','DetailsImageScenario10236')" />Details:
-						<div id="detailsDIVScenario10236" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,14 +168,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1591.html">«table» distribution_line_indexes</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1526.html">«table» business_units</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1526.html">«table» distribution_line_indexes</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1591.html">«table» business_units</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_fund_codes_view</title>
+<title>Views::current_contracts_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_fund_codes_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_contracts_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{A28BCCCB-DDDC-4f5e-ABF4-3F324274C514}</td>
+			<td class="ObjectDetailsValue">{E2948D1B-B1E9-4386-B56A-52EF21B1E3D4}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA761.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA764.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,32 +113,32 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4567" onclick="parent.toggleDiv('detailsDIVScenario4567','DetailsImageScenario4567')" />Details:
-						<div id="detailsDIVScenario4567" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4558" onclick="parent.toggleDiv('detailsDIVScenario4558','DetailsImageScenario4558')" />Details:
+						<div id="detailsDIVScenario4558" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.fund_codes;</td>
+				<td width="50%" class="TableRow" valign="top">public.contracts;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4568" onclick="parent.toggleDiv('detailsDIVScenario4568','DetailsImageScenario4568')" />Details:
-						<div id="detailsDIVScenario4568" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4559" onclick="parent.toggleDiv('detailsDIVScenario4559','DetailsImageScenario4559')" />Details:
+						<div id="detailsDIVScenario4559" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.fund_code_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_description,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_reporting_structure,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_account_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_chapter_advances,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fund_code_enactment_year,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (fund_codes rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.fund_code_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM fund_codes i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.fund_code_id) m ON (((rec.fund_code_id = m.fund_code_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.fund_code_id;</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.contract_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contract_number,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contract_supplier_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (contracts rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.contract_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM contracts i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.contract_id) m ON (((rec.contract_id = m.contract_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.contract_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4569" onclick="parent.toggleDiv('detailsDIVScenario4569','DetailsImageScenario4569')" />Details:
-						<div id="detailsDIVScenario4569" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4560" onclick="parent.toggleDiv('detailsDIVScenario4560','DetailsImageScenario4560')" />Details:
+						<div id="detailsDIVScenario4560" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,7 +168,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA836.html">«table» fund_codes</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA834.html">«table» contracts</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

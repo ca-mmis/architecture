@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_supplier_addresses_view</title>
+<title>Views::current_service_categories_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_supplier_addresses_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_service_categories_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DC270FAC-2E53-4449-AE5C-716DE324C2D1}</td>
+			<td class="ObjectDetailsValue">{63DB1431-3397-4dd7-B032-0153EA141266}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1390.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1393.html">Consumption All Entities</a>, <a href="../../../EA4/EA3/EA1789.html">Consumption All Entities</a>, <a href="../../../EA5/EA3/EA2328.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,6 +113,18 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10353" onclick="parent.toggleDiv('detailsDIVScenario10353','DetailsImageScenario10353')" />Details:
+						<div id="detailsDIVScenario10353" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">parents</td>
+				<td width="50%" class="TableRow" valign="top">public.service_categories;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10354" onclick="parent.toggleDiv('detailsDIVScenario10354','DetailsImageScenario10354')" />Details:
 						<div id="detailsDIVScenario10354" class="DetailsDiv" >
 						&nbsp;
@@ -120,25 +132,13 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.supplier_addresses;</td>
+				<td width="50%" class="TableRow" valign="top">viewdef</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.service_category_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_description,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_line_number,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_requires_feeder_form,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (service_categories rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.service_category_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM service_categories i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.service_category_id) m ON (((rec.service_category_id = m.service_category_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.service_category_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10355" onclick="parent.toggleDiv('detailsDIVScenario10355','DetailsImageScenario10355')" />Details:
 						<div id="detailsDIVScenario10355" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.supplier_address_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_supplier_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_sequence_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_address1,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_address2,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_city,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_state,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.supplier_address_zip_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (supplier_addresses rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.supplier_address_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM supplier_addresses i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.supplier_address_id) m ON (((rec.supplier_address_id = m.supplier_address_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.supplier_address_id;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10356" onclick="parent.toggleDiv('detailsDIVScenario10356','DetailsImageScenario10356')" />Details:
-						<div id="detailsDIVScenario10356" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,7 +168,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1614.html">«table» supplier_addresses</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1614.html">«table» service_categories</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

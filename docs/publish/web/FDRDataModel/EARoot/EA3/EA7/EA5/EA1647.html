@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_service_categories_view</title>
+<title>Views::current_increase_decrease_line_numbers_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_service_categories_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_increase_decrease_line_numbers_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:24 PM</td>
+			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">8/19/2020 1:16:24 PM</td>
+			<td class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5DCEF57C-2B28-4afb-BAC9-B879F9CFAB2B}</td>
+			<td class="ObjectDetailsValue">{3C3276CA-03FF-49a1-969F-359663BE603B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1390.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1393.html">Consumption All Entities</a>, <a href="../../../EA4/EA3/EA1789.html">Consumption All Entities</a>, <a href="../../../EA5/EA3/EA2328.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,6 +113,18 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10263" onclick="parent.toggleDiv('detailsDIVScenario10263','DetailsImageScenario10263')" />Details:
+						<div id="detailsDIVScenario10263" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">parents</td>
+				<td width="50%" class="TableRow" valign="top">public.increase_decrease_line_numbers;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10264" onclick="parent.toggleDiv('detailsDIVScenario10264','DetailsImageScenario10264')" />Details:
 						<div id="detailsDIVScenario10264" class="DetailsDiv" >
 						&nbsp;
@@ -120,25 +132,13 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.service_categories;</td>
+				<td width="50%" class="TableRow" valign="top">viewdef</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.increase_decrease_line_number_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.increase_decrease_line_number_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.increase_decrease_line_number_description,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (increase_decrease_line_numbers rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.increase_decrease_line_number_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM increase_decrease_line_numbers i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.increase_decrease_line_number_id) m ON (((rec.increase_decrease_line_number_id = m.increase_decrease_line_number_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.increase_decrease_line_number_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10265" onclick="parent.toggleDiv('detailsDIVScenario10265','DetailsImageScenario10265')" />Details:
 						<div id="detailsDIVScenario10265" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.service_category_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_line_number,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_requires_feeder_form,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.service_category_rank,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (service_categories rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.service_category_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM service_categories i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.service_category_id) m ON (((rec.service_category_id = m.service_category_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.service_category_id;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10266" onclick="parent.toggleDiv('detailsDIVScenario10266','DetailsImageScenario10266')" />Details:
-						<div id="detailsDIVScenario10266" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,14 +168,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1611.html">«table» service_categories</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1604.html">«table» increase_decrease_line_numbers</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1565.html">«table» service_categories</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1544.html">«table» increase_decrease_line_numbers</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

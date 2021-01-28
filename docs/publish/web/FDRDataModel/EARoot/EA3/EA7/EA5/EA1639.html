@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_fdr_appropriation_references_view</title>
+<title>Views::current_contracts_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_fdr_appropriation_references_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_contracts_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
+			<td width="85%" class="ObjectDetailsValue">8/19/2020 1:16:22 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">8/19/2020 1:16:23 PM</td>
+			<td class="ObjectDetailsValue">8/19/2020 1:16:22 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3A2CD21F-04F2-43b7-BE89-B69C59F63617}</td>
+			<td class="ObjectDetailsValue">{AC98D1F3-C133-4a15-86BE-901D7752878A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1390.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1393.html">Consumption All Entities</a>, <a href="../../../EA4/EA3/EA1789.html">Consumption All Entities</a>, <a href="../../../EA5/EA3/EA2328.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,6 +113,18 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10239" onclick="parent.toggleDiv('detailsDIVScenario10239','DetailsImageScenario10239')" />Details:
+						<div id="detailsDIVScenario10239" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">parents</td>
+				<td width="50%" class="TableRow" valign="top">public.contracts;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10240" onclick="parent.toggleDiv('detailsDIVScenario10240','DetailsImageScenario10240')" />Details:
 						<div id="detailsDIVScenario10240" class="DetailsDiv" >
 						&nbsp;
@@ -120,25 +132,13 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.fdr_appropriation_references;</td>
+				<td width="50%" class="TableRow" valign="top">viewdef</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT rec.contract_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contract_number,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contract_supplier_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (contracts rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.contract_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM contracts i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.contract_id) m ON (((rec.contract_id = m.contract_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.contract_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10241" onclick="parent.toggleDiv('detailsDIVScenario10241','DetailsImageScenario10241')" />Details:
 						<div id="detailsDIVScenario10241" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.fdr_appropriation_reference_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.fdr_appropriation_reference_code,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_sub,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by_user_email,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (fdr_appropriation_references rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.fdr_appropriation_reference_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM fdr_appropriation_references i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.fdr_appropriation_reference_id) m ON (((rec.fdr_appropriation_reference_id = m.fdr_appropriation_reference_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.fdr_appropriation_reference_id;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10242" onclick="parent.toggleDiv('detailsDIVScenario10242','DetailsImageScenario10242')" />Details:
-						<div id="detailsDIVScenario10242" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,14 +168,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1532.html">«table» fdr_appropriation_references</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1528.html">«table» contracts</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1594.html">«table» fdr_appropriation_references</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA1593.html">«table» contracts</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
