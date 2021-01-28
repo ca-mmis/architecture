@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Receipt All Entities</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2032.png" usemap="#EA2032" border="0" />
+
+<MAP NAME="EA2032">
+<area shape="rect" coords="3889,217,4047,287" href="./EA4/EA2060.html" target="_self">
+<area shape="rect" coords="3638,230,3858,300" href="./EA4/EA2059.html" target="_self">
+<area shape="rect" coords="3503,180,3593,250" href="./EA4/EA2058.html" target="_self">
+<area shape="rect" coords="3363,180,3453,250" href="./EA4/EA2057.html" target="_self">
+<area shape="rect" coords="3171,217,3326,287" href="./EA4/EA2056.html" target="_self">
+<area shape="rect" coords="3001,205,3135,275" href="./EA4/EA2055.html" target="_self">
+<area shape="rect" coords="2779,217,2957,287" href="./EA4/EA2054.html" target="_self">
+<area shape="rect" coords="2599,205,2737,275" href="./EA4/EA2053.html" target="_self">
+<area shape="rect" coords="2463,180,2553,250" href="./EA4/EA2052.html" target="_self">
+<area shape="rect" coords="2277,205,2420,275" href="./EA4/EA2051.html" target="_self">
+<area shape="rect" coords="2091,205,2245,275" href="./EA4/EA2050.html" target="_self">
+<area shape="rect" coords="1750,167,2067,362" href="./EA5/EA2073.html" target="_self">
+<area shape="rect" coords="670,15,987,514" href="./EA5/EA2072.html" target="_self">
+<area shape="rect" coords="330,607,647,962" href="./EA5/EA2071.html" target="_self">
+<area shape="rect" coords="350,1299,667,1550" href="./EA5/EA2070.html" target="_self">
+<area shape="rect" coords="1010,659,1327,910" href="./EA5/EA2069.html" target="_self">
+<area shape="rect" coords="1539,197,1717,308" href="./EA5/EA2068.html" target="_self">
+<area shape="rect" coords="1277,197,1499,332" href="./EA5/EA2067.html" target="_self">
+<area shape="rect" coords="670,679,987,890" href="./EA5/EA2066.html" target="_self">
+<area shape="rect" coords="10,1067,327,1782" href="./EA5/EA2065.html" target="_self">
+<area shape="rect" coords="1027,209,1229,320" href="./EA5/EA2064.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Receipt All Entities : Data Modeling diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/20/2020 9:46:18 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">1/27/2021 3:51:43 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Joe Chavez (joe.chavez@dhcs.ca.gov)</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">20.17</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{086BE9F6-A39A-4d84-BA74-E45155227AEC}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
