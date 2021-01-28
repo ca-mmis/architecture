@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.6.4:1", "", "Tables", "EARoot/EA3/EA6/EA4/EA1378.html", "175.png", "170", "0", "", "Logical diagram0","{809C98CF-DACB-4b0e-A0D6-9F52AD50875F}");
-tocTab[tocTab.length] = new Array("0.3.6.4:2", "", "«table» draw_report_group_months", "EARoot/EA3/EA6/EA4/EA1381.html", "8C9E6706-8_table.png", "E1365", "0", "", "Class0","{F1771BDB-86C4-4c58-B479-10E8547CB2A3}");
-tocTab[tocTab.length] = new Array("0.3.6.4:3", "", "«table» report_group_months", "EARoot/EA3/EA6/EA4/EA1382.html", "8C9E6706-8_table.png", "E1366", "0", "", "Class0","{4B6F3FF8-2959-4dd8-8804-F5B8510F4D8A}");
-tocTab[tocTab.length] = new Array("0.3.6.4:4", "", "«table» report_group_quarters", "EARoot/EA3/EA6/EA4/EA1383.html", "8C9E6706-8_table.png", "E1367", "0", "", "Class0","{326B48E7-12BA-4d1d-83F0-B490511A4EDD}");
-tocTab[tocTab.length] = new Array("0.3.6.4:5", "", "«table» knex_migrations", "EARoot/EA3/EA6/EA4/EA1384.html", "8C9E6706-8_table.png", "E1037", "0", "", "Class0","{71981FA9-EB1F-444a-8FF2-7D21A3C72A0E}");
-tocTab[tocTab.length] = new Array("0.3.6.4:6", "", "«table» knex_migrations_lock", "EARoot/EA3/EA6/EA4/EA1385.html", "8C9E6706-8_table.png", "E1038", "0", "", "Class0","{EC2BC372-54C4-46f9-A57C-BA2E86CA200E}");
-tocTab[tocTab.length] = new Array("0.3.6.4:7", "", "«table» report_lines", "EARoot/EA3/EA6/EA4/EA1386.html", "8C9E6706-8_table.png", "E1039", "0", "", "Class0","{1D1833E2-056E-45a6-ACEF-C14691F71A1E}");

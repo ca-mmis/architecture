@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3:1", "", "Sprint 20.16", "EARoot/EA3/EA901.html", "176.png", "180", "0", "", "Package diagram0","{48A9AC9C-4CDA-44f6-A3A6-9353758D49AF}");
-tocTab[tocTab.length] = new Array("0.3.1", "1", "«Database» Budget", "EARoot/EA3/EA1/EA916.html", "4.png", "", "", "{590517F9-E934-452a-B7EC-3243266F63CA}", "Package");
-tocTab[tocTab.length] = new Array("0.3.2", "1", "«Database» Draw", "EARoot/EA3/EA2/EA961.html", "4.png", "", "", "{BFDD6B9A-4F9F-478d-A33F-761BEF57AC4A}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3", "1", "«Database» Receipt", "EARoot/EA3/EA3/EA1016.html", "4.png", "", "", "{1BF036D6-07EB-4ff8-9CC0-71749D66D77C}", "Package");
-tocTab[tocTab.length] = new Array("0.3.4", "1", "«Database» Reference", "EARoot/EA3/EA4/EA1090.html", "4.png", "", "", "{D07CC457-3E9C-4101-AB88-6D41270763C7}", "Package");
-tocTab[tocTab.length] = new Array("0.3.5", "1", "«Database» Voucher", "EARoot/EA3/EA5/EA1308.html", "4.png", "", "", "{FBCBD39B-C814-49b1-BA8C-F8C5CE689DDC}", "Package");
-tocTab[tocTab.length] = new Array("0.3.6", "1", "«Database» Aggregation", "EARoot/EA3/EA6/EA1356.html", "4.png", "", "", "{00E0B00A-CCDE-4958-A08B-AE51A13FEF50}", "Package");
-tocTab[tocTab.length] = new Array("0.3.7", "1", "«Database» Consumption", "EARoot/EA3/EA7/EA1395.html", "4.png", "", "", "{BD171782-C2DB-449a-A52B-0DA362B7EC73}", "Package");

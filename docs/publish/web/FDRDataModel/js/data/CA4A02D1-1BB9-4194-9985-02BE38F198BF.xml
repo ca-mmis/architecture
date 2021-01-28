@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.7:1", "", "Reference All Entities", "EARoot/EA5/EA7/EA2436.html", "175.png", "311", "0", "", "Logical diagram0","{B11F1B05-CE1A-4d1e-86B4-271B6AAF5F79}");
-tocTab[tocTab.length] = new Array("0.5.7.1", "", "Connections", "EARoot/EA5/EA7/EA1/EA2445.html", "4.png", "", "", "{F4C90049-235D-4dcb-AB5B-993133D96E62}", "Package");
-tocTab[tocTab.length] = new Array("0.5.7.2", "1", "Functions", "EARoot/EA5/EA7/EA2/EA2448.html", "4.png", "", "", "{5D21A25D-124E-404b-A9C7-2B11D122489A}", "Package");
-tocTab[tocTab.length] = new Array("0.5.7.3", "1", "Queries", "EARoot/EA5/EA7/EA3/EA2451.html", "4.png", "", "", "{FDD528FA-9ADD-4d8d-BD1B-2EB56D93D14C}", "Package");
-tocTab[tocTab.length] = new Array("0.5.7.4", "1", "Sequences", "EARoot/EA5/EA7/EA4/EA2454.html", "4.png", "", "", "{6520A97B-ED22-4194-9923-EF831EAC98C0}", "Package");
-tocTab[tocTab.length] = new Array("0.5.7.5", "1", "Tables", "EARoot/EA5/EA7/EA5/EA2457.html", "4.png", "", "", "{8496C9CC-A158-4774-9BA6-9027F49818A6}", "Package");
-tocTab[tocTab.length] = new Array("0.5.7.6", "1", "Views", "EARoot/EA5/EA7/EA6/EA2462.html", "4.png", "", "", "{8D65DF1D-E8CF-489d-9D89-8EACEBF259C8}", "Package");
