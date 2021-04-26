@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Views::current_contacts_view</title>
+<title>current_business_units_view</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_contacts_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("current_business_units_view", " : "))</script>  : Public  &lt;&lt;view&gt;&gt; View</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{35B79BD9-BE54-42ce-BA51-907B4AD4BF04}</td>
+			<td class="ObjectDetailsValue">{7DB3D3F1-8D9A-4c08-A186-19B2052CFADF}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA764.html">Consumption All Entities</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA765.html">Consumption All Entities</a></td>
 		</tr>
 	</table>
 	
@@ -113,32 +113,32 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4555" onclick="parent.toggleDiv('detailsDIVScenario4555','DetailsImageScenario4555')" />Details:
-						<div id="detailsDIVScenario4555" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4552" onclick="parent.toggleDiv('detailsDIVScenario4552','DetailsImageScenario4552')" />Details:
+						<div id="detailsDIVScenario4552" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">parents</td>
-				<td width="50%" class="TableRow" valign="top">public.contacts;</td>
+				<td width="50%" class="TableRow" valign="top">public.business_units;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4556" onclick="parent.toggleDiv('detailsDIVScenario4556','DetailsImageScenario4556')" />Details:
-						<div id="detailsDIVScenario4556" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4553" onclick="parent.toggleDiv('detailsDIVScenario4553','DetailsImageScenario4553')" />Details:
+						<div id="detailsDIVScenario4553" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">viewdef</td>
-				<td width="50%" class="TableRow" valign="top"> SELECT rec.contact_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_first_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_last_name,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.contact_phone,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> rec.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (contacts rec<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.contact_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM contacts i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.contact_id) m ON (((rec.contact_id = m.contact_id) AND (rec.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY rec.contact_id;</td>
+				<td width="50%" class="TableRow" valign="top"> SELECT b.business_unit_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.business_unit_business_unit,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.created_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.updated_at,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.start_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.end_date,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_meta,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_version,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_by,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> b.ods_created_at<br />&nbsp;<WBR>&nbsp;<WBR> FROM (business_units b<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> JOIN ( SELECT i.business_unit_id,<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> max(i.ods_created_at) AS max_version<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> FROM business_units i<br />&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR>&nbsp;<WBR> GROUP BY i.business_unit_id) m ON (((b.business_unit_id = m.business_unit_id) AND (b.ods_created_at = m.max_version))))<br />&nbsp;<WBR> ORDER BY b.business_unit_id;</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4557" onclick="parent.toggleDiv('detailsDIVScenario4557','DetailsImageScenario4557')" />Details:
-						<div id="detailsDIVScenario4557" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4554" onclick="parent.toggleDiv('detailsDIVScenario4554','DetailsImageScenario4554')" />Details:
+						<div id="detailsDIVScenario4554" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -168,7 +168,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA833.html">«table» contacts</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA833.html">«table» business_units</a></td>
 					<td width="10%" class="TableRow" valign="top">Table</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
