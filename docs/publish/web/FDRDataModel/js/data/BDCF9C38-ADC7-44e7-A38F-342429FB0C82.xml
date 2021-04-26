@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.3.4.5:1", "", "Tables", "EARoot/EA3/EA4/EA5/EA1203.html", "175.png", "391", "0", "", "Logical diagram0","{8D773DA7-9F82-49d4-8175-5962A6E605B3}");
+tocTab[tocTab.length] = new Array("0.3.4.5:2", "", "«table» debezium_heartbeat", "EARoot/EA3/EA4/EA5/EA1206.html", "28.png", "E2547", "0", "", "Class0","{E687FBCB-C478-4089-81A8-220EC010F89F}");
+tocTab[tocTab.length] = new Array("0.3.4.5:3", "", "«table» draws", "EARoot/EA3/EA4/EA5/EA1207.html", "28.png", "E2548", "0", "", "Class0","{50BEE069-212C-4b55-B222-1FA2848EE4E6}");
+tocTab[tocTab.length] = new Array("0.3.4.5:4", "", "«table» events", "EARoot/EA3/EA4/EA5/EA1208.html", "28.png", "E2549", "0", "", "Class0","{A77181C4-ED2C-41e6-AC3D-B0E525CF3674}");
+tocTab[tocTab.length] = new Array("0.3.4.5:5", "", "«table» knex_migrations", "EARoot/EA3/EA4/EA5/EA1209.html", "28.png", "E2550", "0", "", "Class0","{449EF0EE-8153-4f72-8235-CC7AB6275421}");
+tocTab[tocTab.length] = new Array("0.3.4.5:6", "", "«table» knex_migrations_lock", "EARoot/EA3/EA4/EA5/EA1210.html", "28.png", "E2551", "0", "", "Class0","{43872215-1B4A-4a4b-BC8D-A934609904E1}");
+tocTab[tocTab.length] = new Array("0.3.4.5:7", "", "«table» remittance_advices", "EARoot/EA3/EA4/EA5/EA1211.html", "28.png", "E2552", "0", "", "Class0","{7DD3A843-8AAB-4f93-874F-15E207AC371E}");
+tocTab[tocTab.length] = new Array("0.3.4.5:8", "", "«table» sco_balances", "EARoot/EA3/EA4/EA5/EA1212.html", "28.png", "E2553", "0", "", "Class0","{6B838E0D-24FE-4ab6-9909-B09AE6617146}");

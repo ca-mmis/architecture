@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.2.1:1", "", "Draw All Entities", "EARoot/EA2/EA1/EA388.html", "175.png", "97", "0", "", "Logical diagram0","{1D6E24F9-9AD1-4766-954F-32D862C3B826}");
-tocTab[tocTab.length] = new Array("0.2.1.1", "", "Connections", "EARoot/EA2/EA1/EA1/EA397.html", "4.png", "", "", "{31E8B11D-3A11-4371-809B-AF51DA7CE460}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.2", "1", "Functions", "EARoot/EA2/EA1/EA2/EA400.html", "4.png", "", "", "{D0829F75-5930-4df4-9087-E7622843E910}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.3", "1", "Queries", "EARoot/EA2/EA1/EA3/EA403.html", "4.png", "", "", "{A6D2E2CC-C00D-49aa-8DBB-F0A0B1F50744}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.4", "1", "Sequences", "EARoot/EA2/EA1/EA4/EA406.html", "4.png", "", "", "{260B60C1-2695-41fc-B957-24373069F57B}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.5", "1", "Tables", "EARoot/EA2/EA1/EA5/EA416.html", "4.png", "", "", "{047E69CA-EBB9-4001-AB4E-96EC4FECB6B0}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.6", "1", "Views", "EARoot/EA2/EA1/EA6/EA428.html", "4.png", "", "", "{194D532C-9EBA-4b29-AFFF-0063E52D2720}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "Draw All Entities", "EARoot/EA2/EA1/EA389.html", "175.png", "97", "0", "", "Logical diagram0","{1D6E24F9-9AD1-4766-954F-32D862C3B826}");
+tocTab[tocTab.length] = new Array("0.2.1.1", "", "Connections", "EARoot/EA2/EA1/EA1/EA398.html", "4.png", "", "", "{31E8B11D-3A11-4371-809B-AF51DA7CE460}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.2", "1", "Functions", "EARoot/EA2/EA1/EA2/EA401.html", "4.png", "", "", "{D0829F75-5930-4df4-9087-E7622843E910}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.3", "1", "Queries", "EARoot/EA2/EA1/EA3/EA404.html", "4.png", "", "", "{A6D2E2CC-C00D-49aa-8DBB-F0A0B1F50744}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.4", "1", "Sequences", "EARoot/EA2/EA1/EA4/EA407.html", "4.png", "", "", "{260B60C1-2695-41fc-B957-24373069F57B}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.5", "1", "Tables", "EARoot/EA2/EA1/EA5/EA417.html", "4.png", "", "", "{047E69CA-EBB9-4001-AB4E-96EC4FECB6B0}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.6", "1", "Views", "EARoot/EA2/EA1/EA6/EA429.html", "4.png", "", "", "{194D532C-9EBA-4b29-AFFF-0063E52D2720}", "Package");
