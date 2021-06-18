@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.3.6:1", "", "Views", "EARoot/EA5/EA3/EA6/EA2659.html", "175.png", "287", "0", "", "Logical diagram0","{C5AC07D1-9F7E-4bf5-A7B7-639FD787E9F0}");
-tocTab[tocTab.length] = new Array("0.5.3.6:2", "", "View Dependency", "EARoot/EA5/EA3/EA6/EA2661.html", "175.png", "288", "0", "", "Logical diagram0","{1937F480-E76F-479f-8BE3-45FD3644630C}");
-tocTab[tocTab.length] = new Array("0.5.3.6:3", "", "«view» receipt_audit_history_view", "EARoot/EA5/EA3/EA6/EA2664.html", "8C9E6706-8_view.png", "E1944", "0", "", "Class0","{BC628DDA-6EFD-4c16-98C3-BED467779631}");
-tocTab[tocTab.length] = new Array("0.5.3.6:4", "", "«view» voucher_audit_history_view", "EARoot/EA5/EA3/EA6/EA2665.html", "8C9E6706-8_view.png", "E1945", "0", "", "Class0","{B3BDF662-FF6E-4de8-8A60-30F3D7989E4A}");
