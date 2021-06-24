@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.4:1", "", "Tables", "EARoot/EA1/EA3/EA4/EA60.html", "175.png", "78", "0", "", "Logical diagram0","{F699191B-53FD-424d-B0F0-DA0825F4E70C}");
-tocTab[tocTab.length] = new Array("0.1.3.4:2", "", "«table» draws", "EARoot/EA1/EA3/EA4/EA63.html", "8C9E6706-8_table.png", "E382", "0", "", "Class0","{6679E8D1-5007-4b02-ADAB-4F1C9B9A3FA8}");
-tocTab[tocTab.length] = new Array("0.1.3.4:3", "", "«table» events", "EARoot/EA1/EA3/EA4/EA64.html", "8C9E6706-8_table.png", "E383", "0", "", "Class0","{43544320-C891-44ef-85A2-1915CA6388BF}");
-tocTab[tocTab.length] = new Array("0.1.3.4:4", "", "«table» knex_migrations", "EARoot/EA1/EA3/EA4/EA65.html", "8C9E6706-8_table.png", "E384", "0", "", "Class0","{D8E5AE0B-911F-4a14-893F-14C934F84A48}");
-tocTab[tocTab.length] = new Array("0.1.3.4:5", "", "«table» knex_migrations_lock", "EARoot/EA1/EA3/EA4/EA66.html", "8C9E6706-8_table.png", "E385", "0", "", "Class0","{591E3A67-63ED-4404-96E0-7688388BB970}");
-tocTab[tocTab.length] = new Array("0.1.3.4:6", "", "«table» sco_balances", "EARoot/EA1/EA3/EA4/EA67.html", "8C9E6706-8_table.png", "E386", "0", "", "Class0","{5D50DA2E-D1A9-48ba-BD3B-D5E10C35D458}");
-tocTab[tocTab.length] = new Array("0.1.3.4:7", "", "«table» transaction_requests", "EARoot/EA1/EA3/EA4/EA68.html", "8C9E6706-8_table.png", "E387", "0", "", "Class0","{29A09FFD-F843-4c2f-B9F9-3190A406FAED}");

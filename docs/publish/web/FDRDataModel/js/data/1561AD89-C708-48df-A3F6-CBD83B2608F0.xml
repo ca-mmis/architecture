@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.4.4:1", "", "Tables", "EARoot/EA1/EA4/EA4/EA104.html", "175.png", "20", "0", "", "Logical diagram0","{ED900B56-5D70-4243-AF6B-BA768DF79CF1}");
-tocTab[tocTab.length] = new Array("0.1.4.4:2", "", "«table» distribution_lines", "EARoot/EA1/EA4/EA4/EA107.html", "8C9E6706-8_table.png", "E323", "0", "", "Class0","{C52406BD-B6D0-4fe0-B912-347107BC48C9}");
-tocTab[tocTab.length] = new Array("0.1.4.4:3", "", "«table» events", "EARoot/EA1/EA4/EA4/EA108.html", "8C9E6706-8_table.png", "E324", "0", "", "Class0","{70B58803-2095-4e08-8E8C-2720A39C8CE2}");
-tocTab[tocTab.length] = new Array("0.1.4.4:4", "", "«table» knex_migrations", "EARoot/EA1/EA4/EA4/EA109.html", "8C9E6706-8_table.png", "E325", "0", "", "Class0","{45A8F833-5E87-4e85-9182-A32D3C46B638}");
-tocTab[tocTab.length] = new Array("0.1.4.4:5", "", "«table» knex_migrations_lock", "EARoot/EA1/EA4/EA4/EA110.html", "8C9E6706-8_table.png", "E326", "0", "", "Class0","{CC50CE30-74E1-4767-AB0C-DFB1ED36BFBA}");
-tocTab[tocTab.length] = new Array("0.1.4.4:6", "", "«table» receipt_buckets", "EARoot/EA1/EA4/EA4/EA111.html", "8C9E6706-8_table.png", "E327", "0", "", "Class0","{483CF7B0-EEA1-4cea-8144-F8BED26F0F5E}");
-tocTab[tocTab.length] = new Array("0.1.4.4:7", "", "«table» receipt_line_buckets", "EARoot/EA1/EA4/EA4/EA112.html", "8C9E6706-8_table.png", "E328", "0", "", "Class0","{AD463963-DD51-4d79-839A-2C3EA03B4AEE}");
-tocTab[tocTab.length] = new Array("0.1.4.4:8", "", "«table» receipt_lines", "EARoot/EA1/EA4/EA4/EA113.html", "8C9E6706-8_table.png", "E329", "0", "", "Class0","{5E317EB3-68FA-4437-8A8E-9978F923308D}");
-tocTab[tocTab.length] = new Array("0.1.4.4:9", "", "«table» receipts", "EARoot/EA1/EA4/EA4/EA114.html", "8C9E6706-8_table.png", "E330", "0", "", "Class0","{DFBD7770-D0F6-489d-BFEF-5BBB854E847B}");
